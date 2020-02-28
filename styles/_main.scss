@@ -1,0 +1,55 @@
+main {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-image: url("/images/main-bgc.png");
+	min-height: 100vh;
+}
+
+.menu {
+	font-family: $handwritting-font;
+	overflow: hidden;
+
+	a {
+		color: #000;
+	}
+
+	nav {
+		font-size: 1.5rem;
+	}
+}
+
+.menu-header {
+	text-transform: uppercase;
+}
+
+.menu-content {
+	width: 100%;
+
+	.offers {
+		max-height: 80vh;
+		overflow-y: scroll;
+	}
+
+	.offer {
+		display: flex;
+		align-items: center;
+		width: 100%;
+
+		img {
+			margin-right: 1rem;
+		}
+	}
+}
+
+.basket {
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	font-size: 2rem;
+	color: $orange;
+
+	span {
+		font-size: 1rem;
+	}
+}

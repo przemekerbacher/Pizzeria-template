@@ -1,0 +1,120 @@
+.nav-link svg {
+  margin-right: 5px;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-image: url("/images/header-pizza-gray.jpg");
+}
+
+.header div.jumbotron .jumbotron-fluid {
+  margin: 0;
+}
+
+.header h1 {
+  font-family: "Just Me Again Down Here", sans-serif;
+  color: #ff982a;
+  font-size: 4rem;
+}
+
+main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("/images/main-bgc.png");
+  min-height: 100vh;
+}
+
+.menu {
+  font-family: "Just Me Again Down Here", sans-serif;
+  overflow: hidden;
+}
+
+.menu a {
+  color: #000;
+}
+
+.menu nav {
+  font-size: 1.5rem;
+}
+
+.menu-header {
+  text-transform: uppercase;
+}
+
+.menu-content {
+  width: 100%;
+}
+
+.menu-content .offers {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.menu-content .offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.menu-content .offer img {
+  margin-right: 1rem;
+}
+
+.basket {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 2rem;
+  color: #ff982a;
+}
+
+.basket span {
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #ddd;
+}
+
+footer .opacity {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 200vh;
+}
+/*# sourceMappingURL=styles.css.map */
